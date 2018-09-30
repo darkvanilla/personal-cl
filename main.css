@@ -1,0 +1,74 @@
+/* comments... */
+
+.header{
+	/*background: #1C6EA4;
+	background: -moz-linear-gradient(-45deg, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+	background: -webkit-linear-gradient(-45deg, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+	background: linear-gradient(135deg, #1C6EA4 0%, #2388CB 50%, #144E75 100%);*/
+	text-align: center;
+	color: rgb(220,220,220);
+	padding: 10px 20px 10px 20px; /* top right bottom left */
+	margin: 10px 30px 10px 40px; /* top right bottom left */
+}
+
+body{
+	background-image: url("cl.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #eeeeee;
+}
+
+.chest {
+	overflow: hidden;
+}
+
+.chest-left{
+	float: left;
+	width: 48%;
+	height: 300px;
+	background-image: url("uefacl.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px 1px; /* top right bottom left */
+	margin: 10px; /* top right bottom left */
+}
+
+.chest-right{
+	float: right;
+	width: 48%;
+	height: 300px;
+	background-image: url("uefacl.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px 1px; /* top right bottom left */
+	margin: 10px; /* top right bottom left */
+}
+
+h3{
+	color: rgb(220,220,220);
+	font-family: League Gothic;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 28px;
+	margin: 10px 10px 20px 10px;
+}
+
+h1{
+	color: rgb(255,255,255);
+	font-family: League Gothic;
+	font-weight: normal;
+	font-size: 36px;
+}
+
+p{
+	color: rgb(255,255,255);
+	font-family: League Gothic;
+	font-weight: normal;
+	font-size: 30px;
+	padding: 0px;
+	margin: 10px;
+}
